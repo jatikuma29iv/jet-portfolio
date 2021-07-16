@@ -1,8 +1,8 @@
 backend:
   name: github
   branch: master
-  repo: jatikuma29iv/jet-portfolio
-  site_domain: jetpro.netlify.com
+  repo: jatikuma29iv/jetnotebook
+  site_domain: jetnotebook.netlify.app
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
