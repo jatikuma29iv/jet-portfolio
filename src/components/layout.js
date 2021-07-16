@@ -6,8 +6,10 @@ import '../styles.sass'
 
 export default function Layout({ title, children }) {
   return (
-  <>
-    <Navbar />
-    { children }
-  </>
+  <main className='app'>
+    <Navbar app='Notebook' />
+    <div className='app-content'>
+      { children }
+    </div>
+  </main>
 )}

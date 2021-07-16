@@ -3,12 +3,18 @@ import { Link } from 'gatsby'
 
 export default function Navbar ({ app }) {
   return (
-  <nav>
-    <Link to='/'>{app}</Link>
-    <Link to='/'>Home</Link>
-    <Link to='/notes'>Notes</Link>
-    <Link to='/about'>About</Link>
-    <Link to='/contact'>Contact</Link>
-  </nav>
+
+    <nav className='app-nav'>
+      <ul className='nav'>
+        <li className='nav-item'>
+          <Link to='/notes' className='nav-link'>{ app }</Link> </li>
+      </ul>
+
+      <ul className='nav justify-content-end'>
+        <li className='nav-item'>
+          <Link to='/' className='nav-link'>Jet</Link> </li>
+      </ul>
+
+    </nav>
 )}
 

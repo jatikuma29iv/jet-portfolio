@@ -1,3 +1,58 @@
 
 @import "~bootstrap/scss/bootstrap"
 
+*
+  //border: 1px dashed red
+  box-sizing: border-box
+
+.app
+
+  &-nav
+    @extend .navbar
+    padding: 0.5rem 0
+
+  &-content
+    @extend .container-fluid
+    margin: 0
+    padding: 0
+
+.notebook
+
+  &-featured-image
+    @extend .img-fluid
+    position: absolute
+    z-index: -1
+
+  &-index
+    @extend .nav
+    @extend .flex-column
+
+  &-index-item
+    img
+      @extend .img-thumbnail
+      @extend .float-left
+      width: 100px
+      height: 100px
+      object-fit: cover
+
+.notes
+
+  &-featured-imagex
+    @extend .img-fluid
+    position: absolute
+    z-index: -1
+
+  &-featured-image
+    width: 100vw
+    height: 25vh
+    object-fit: cover
+    position: absolute
+    z-index: -1
+    border: 0px dashed blue
+
+  &-header
+    @extend .container-fluid
+    min-height: 25vh
+
+  &-body
+    @extend .container-fluid
