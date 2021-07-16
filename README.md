@@ -1,5 +1,6 @@
-# jet-profile
+# jet notebook
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4136029a-0cca-45aa-b6b0-22279a1bd994/deploy-status)](https://app.netlify.com/sites/jetnotebook/deploys)
 
 ## todo
 
