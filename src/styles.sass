@@ -5,6 +5,11 @@
   //border: 1px dashed red
   box-sizing: border-box
 
+body
+  overflow-x: hidden
+  overflow-y: scroll
+  width: 100%
+
 .app
 
   &-nav
@@ -56,3 +61,6 @@
 
   &-body
     @extend .container-fluid
+
+    img
+      max-width: 100%
