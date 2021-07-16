@@ -14,10 +14,8 @@ ADD --chown=node:node package.json .
 
 RUN npm i
 
-RUN npm i -g sass-migrator && sass-migrator division **/*.scss
-
 USER node
 
 ADD --chown=node:node . .
 
-CMD while true; do npm start; sleep 4; done
+CMD while true; do npm start; sleep 1; done
